@@ -1,0 +1,35 @@
+.main-content {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: 
+    "header"
+    "social-btn"
+    "experience"
+    "info";
+  padding: 40px 32px;
+
+  @media (min-width: 780px) {
+    display: flex;
+    flex-direction: row;
+    padding: 70px 60px;
+    height: 100vh;
+    grid-template-rows: fit-content(100%);
+    justify-content: space-between;
+    align-items: flex-start;
+  
+    .first-content {
+      width: 60%;
+      height: 2000px;
+    }
+
+    .second-content {
+      position: fixed;
+      padding: 40px 30px;
+      top: 0;
+      right: 0;
+      width: 35%;
+      height: 100vh;
+      overflow-y: auto;
+    }
+  }
+}

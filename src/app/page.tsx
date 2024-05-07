@@ -1,4 +1,7 @@
+import { Experience } from "./components/experience/experience";
 import { Header } from "./components/header/header";
+
+import "./styles/home.scss"
 
 export default function Home() {
   return (
@@ -6,16 +9,7 @@ export default function Home() {
       <div className="main-content">
         <div className="first-content">
           <Header/>
-          <div className="experience">
-            <h3>Experience</h3>
-            <p>
-              In the last three years, I have dedicated myself to the study of
-              programming, complemented by a computer science course. Throughout
-              my educational journey, I have built a solid foundation in
-              programming logic and have invested considerable effort in
-              developing expertise in languages such as Java.
-            </p>
-          </div>
+          <Experience/>
         </div>
         <div className="second-content">
           <div className="infos">
@@ -34,15 +28,15 @@ export default function Home() {
               </span>
             </div>
           </div>
-        </div>
-        <div className="social-medias">
-          <h3>Social Medias</h3>
-          <div className="social-btn">
-            <span></span>
-            <span></span>
+          <div className="social-medias">
+            <h3>Social Medias</h3>
+            <div className="social-btn">
+              <span></span>
+              <span></span>
+            </div>
           </div>
+          <button>Contact me</button>
         </div>
-        <button>Contact me</button>
       </div>
     </main>
   );
