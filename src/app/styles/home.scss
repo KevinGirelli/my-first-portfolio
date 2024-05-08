@@ -5,7 +5,7 @@
     "header"
     "social-btn"
     "experience"
-    "info";
+    "info-lang";
   padding: 40px 32px;
 
   @media (min-width: 780px) {
@@ -30,6 +30,34 @@
       width: 35%;
       height: 100vh;
       overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      align-content: center;
+
+      .separator {
+        margin-top: 8vh;
+        width: 5px;
+        height: 75vh;
+        background-color: #f5f5f5;
+        position: absolute;
+        left: 0;
+      }
+
+      .education {
+        h3 {
+          margin-top: 0;
+        }
+      }
+
+      .social-medias {
+        margin-top: 20px;
+
+        h3 {
+          margin-top: 0;
+        }
+      }
     }
   }
 }
