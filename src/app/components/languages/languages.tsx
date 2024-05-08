@@ -15,7 +15,7 @@ export function Languages() {
               height={24}
               priority
             />
-            PT-BR Native Speaker</span>
+            PT-BR | Native Speaker</span>
         <span>
           <Image
               src="/eua.svg"
@@ -24,7 +24,7 @@ export function Languages() {
               height={24}
               priority
             />
-            EN - Intermediate</span>
+            EN | Intermediate</span>
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+import { Education } from "./components/education/education";
 import { Experience } from "./components/experience/experience";
 import { Header } from "./components/header/header";
 import { Languages } from "./components/languages/languages";
@@ -15,15 +16,7 @@ export default function Home() {
         <div className="second-content">
           <div className="separator"></div>
           <Languages/>
-          <div className="education">
-            <h3>Education</h3>
-            <div className="educational-info">
-              <span>🎓</span>
-              <span>
-                Technical Course in Computer Science - CEDUP Abílio Paulo
-              </span>
-            </div>
-          </div>
+          <Education/>
           <div className="social-medias">
             <h3>Social Medias</h3>
             <div className="social-btn">
