@@ -2,6 +2,7 @@ import { Education } from "./components/education/education";
 import { Experience } from "./components/experience/experience";
 import { Header } from "./components/header/header";
 import { Languages } from "./components/languages/languages";
+import { Social } from "./components/social/social";
 
 import "./styles/home.scss"
 
@@ -17,14 +18,7 @@ export default function Home() {
           <div className="separator"></div>
           <Languages/>
           <Education/>
-          <div className="social-medias">
-            <h3>Social Medias</h3>
-            <div className="social-btn">
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-          <button>Contact me</button>
+          <Social/>
         </div>
       </div>
     </main>
